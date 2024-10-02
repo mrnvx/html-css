@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <style>
+      .some_class {
+        color: red;
+      }
+      img {
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- header>nav>ul>li*2>a[href="/"] -->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="blog.html">Relative link to blog</a></li>
+          <li><a href="/blog.html">Absolute link to blog</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- grupe radniecigus elementus -->
+      <section>
+        <p>adsasad</p>
+        <p>asdasda</p>
+        <p>dssadsaddsa</p>
+      </section>
+
+      <em>Emphasize</em>
+      <!--semantisks elements -->
+      <!-- <i>vecais</i> depricated-->
+      <p>Labassd <strong>strong text</strong> haah</p>
+      <!-- <b>sddassa</b> vecais depricated-->
+
+      <!-- lorem20 -->
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+        deleniti animi tempore id libero quas voluptatibus molestias, sunt
+        blanditiis distinctio?
+      </p>
+
+      <!-- ul>li*3 Zen coding-->
+      <ul>
+        <li>qqewewqe</li>
+        <li>qweqwe</li>
+        <li>ewqqwe</li>
+      </ul>
+
+      <!-- ol>li*5[class="some_class"] -->
+      <ol>
+        <li class="some_class">sdsda</li>
+        <li class="some_class">sdsd</li>
+        <li class="some_class">sdasda</li>
+        <li class="some_class">sdasd</li>
+        <li class="some_class">sddas</li>
+      </ol>
+
+      <p>Rakstnieku citati:</p>
+      <dl>
+        <dt>Jurgis Bremensons:</dt>
+        <dd>"A large feline inhabiting Bodmin Moor."</dd>
+
+        <dt>Janis Peļķe:</dt>
+        <dd>"A sea serpent."</dd>
+
+        <dt>Alekss Kaudze:</dt>
+        <dd>"A giant owl-like creature."</dd>
+      </dl>
+
+      <form action="http://localhost:8002/about.php" method="post">
+        <label for="name">Pepsi name:</label>
+        <input type="text" id="name" name="first_name" />
+        <br />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" />
+
+        <br /><br />
+        <label for="content">Content:</label>
+        <textarea
+          name="content"
+          id="content"
+          placeholder="Write content"
+        ></textarea>
+        <br /><br />
+        <input type="submit" value="save" />
+        &#9918;
+      </form>
+
+      <img
+        width="640"
+        height="360"
+        src="images/mystical-grib.jpg"
+        alt="Obichnij gribochek"
+      />
+      <br /><br />
+
+      <video width="640" height="360" controls>
+        <source src="videos/women_smiling.mp4" type="video/mp4" />
+        Tev nesmaida sieviete
+      </video>
+
+      <section>
+        <p>My mother has <span style="color: blue">blue</span> eyes.</p>
+        <p>H<sub>2</sub>0</p>
+        <p>Paldies par <sup>Uzmanibu</sup></p>
+      </section>
+    </main>
+    <!-- html entities -->
+    <footer>&copy; Protected by noone</footer>
+  </body>
+</html>

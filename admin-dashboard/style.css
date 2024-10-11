@@ -1,0 +1,65 @@
+body{
+    display: grid;
+    grid-template-areas:
+    'header header header header '
+    'menu user sale graph'
+    'footer footer footer footer ';
+    padding: 10px;
+}
+h1{
+    color: white;
+    background-color: rgb(72, 172, 89);
+    text-align: center;
+    padding: 50px;
+    width: auto;
+    grid-area: header;
+    margin: 0;
+}
+.links {
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    color: white;
+    grid-area: menu;
+}
+footer {
+    grid-area: footer;
+    background-color: grey;
+    text-align: center;
+}
+#users{
+    grid-area: user;
+    text-align: center;
+    padding: auto;
+}
+#sales{
+    grid-area: sale;
+    text-align: center;
+    padding: auto;
+}
+.graph {
+    grid-area: graph;
+    text-align: center;
+}
+h2 {
+    padding: 75px 50px;
+    border-radius: 15px;
+    border: 5px solid gray;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+}
+.graph p {
+    padding: 75px 50px;
+    border-radius: 15px;
+    border: 5px solid gray;
+    height: 150px;
+    margin: 10px;
+}
+.links div{
+    margin: 10px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}   

@@ -1,0 +1,56 @@
+/* selectors */
+/* id, class un type */
+
+#main_heading{
+    color: gold;
+}
+
+/* (1, 0, 0) => 100 */
+
+.bold_paragraph{
+    font-weight:bold;
+    line-height: 3rem;
+}
+
+/* () */
+
+p{
+    line-height: 1rem;
+}
+
+/* attribute selector */
+
+a[target]{
+    color: yellow;
+}
+
+div .bold_paragraph{
+    font-weight: normal;
+}
+
+div .sample_class{
+    color: green;
+}
+
+/* direct child */
+div.sample_class > .p_container .sample_class{
+    color: brown;
+}
+
+/* pseudo class selector */
+
+div.sample_class h2:first-child{
+    font-size: 10rem;
+}
+
+/* :first-child
+:first-of-type
+:nth-child() */
+
+div .list ul li:nth-child(even){
+    color: chocolate;
+}
+
+p::first-letter{
+    text-transform: uppercase;
+}

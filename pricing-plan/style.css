@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .plans-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+  }
+  .plan {
+    background-color: white;
+    
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease;
+    border-top: 5px solid #007bff;
+    height: 300px;
+  }
+  .plan:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .plan h3 {
+    margin-bottom: 10px;
+  }
+  .plan p {
+    margin: 5px 0;
+  }
+  .plan button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .plan button:hover {
+    background-color: #0056b3;
+  }
+
+  .line{
+    color: rgba(128, 128, 128, 0.158);
+    width: 70%;
+  }
+
+  .price{
+    font-size: 30px;
+    opacity: 100%;
+  }
+  p{
+    opacity: 60%;
+  }
